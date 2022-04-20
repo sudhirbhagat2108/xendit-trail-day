@@ -1,0 +1,25 @@
+{
+  "name": "xendit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "dashboardTest": "npm run test -- --record --key a1dfcabe-35cc-4d55-9f87-0106c204402f",
+    "dashboardHeadTest": "npm run test -- --headed --record --key 28e76a1f-96e0-4760-aa3a-682740404353",
+    "xenditTest": "npm run test -- --spec \"cypress/integration/xenditTest/*\" --headed --record --key 28e76a1f-96e0-4760-aa3a-682740404353",
+    "mochawesomeTest":"npm run test -- --spec \"cypress/integration/xenditTest/*\" --headed --reporter mochawesome"
+  },
+  "author": "Sudhir Bhagat",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.4",
+    "cypress-iframe": "^1.0.1",
+    "mocha": "^9.2.2",
+    "mochawesome": "^7.1.3"
+  }
+}
