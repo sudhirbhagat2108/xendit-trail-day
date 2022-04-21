@@ -1,7 +1,13 @@
 {
-  "name" : "bob",
-  "gender" : "Male",
-  "productName" : ["Blackberry","Nokia Edge"]
-  
+  "email" : "sudhirbhagat2108@gmail.com",
+  "password" : "XenditTest@1234",
+  "ipAddress" : "49.36.62.252",
+  "success" : "Success!",
+  "successMessage" : "has been added to the whitelist.",
+  "existsMessage" : "IP address already exists.",
+  "removeSuccessMessage" : "has been removed from your IP whitelist.",
+  "access_token" : "eG5kX2RldmVsb3BtZW50X1FWOExIeTJDNWFzbXlhZXZ0VUwwd3J4YnpOa0F1ZFVuM01WcDJ3ZEhsd204Nmk1a0I2Y3NMUkVGeWVwOg==",
+  "balance" : 1000000,
+  "statuscode" : 200,
+  "message" : "hello world"
 }
-
